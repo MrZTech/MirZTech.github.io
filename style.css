@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('asset/font/Roboto/Roboto-Regular.ttf');
+    
+
+}
+
+.navigasi{
+    display: flex;
+    background: linear-gradient(#533483, #0F3460);
+    flex-direction: row-reverse;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+a{
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(#533483, #0F3460);
+    align-items: center;
+}
+
+.pp{
+    width: 200px;
+    border-radius: 50%;
+    margin: 150px;
+    margin-bottom: 15px;
+    
+}
+.nama{
+    margin-bottom: -15px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 24px;
+}
+.status{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#0F3460, #16213E);
+    height: 700px;
+    width: 100%;
+}
+.about-me{
+    margin-top: 180px;
+    font-family: 'Roboto';
+    color: white;
+}
+.deskripsi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+.paragraf{
+    width: 400px;
+    font-family: 'Roboto';
+    text-align: justify;
+    color: white;
+}
+#contact{
+    margin-top: -22px;
+    background: #16213E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+.contact-me{
+    margin-top: 180px;
+    color: white;
+}
+.wrap{
+    display: flex;
+    margin-top: 50px;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+}
+.bg-sosmed{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.foto{
+    width: 292px;
+    height: 200px;
+    margin-left: -45px;
+}
+.bg-ig{
+    background: rgba(233, 69, 96, 0.5);
+}
+.bg-wa{
+    background: rgba(100, 126, 104, 0.5);
+}
+.bg-github{
+    background: rgba(217, 217, 217, 0.5);
+}
+.bg-linkin{
+    background: rgba(53, 66, 98, 0.5);
+}
+@media screen and (max-width: 1200px) {
+  #contact {
+      height: 900px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #contact {
+        height: 1300px;
+    }
+  }
